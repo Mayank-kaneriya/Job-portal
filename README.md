@@ -23,7 +23,7 @@ A code editor like VS Code
 
 ===> Installation and Setup
 1. Clone the Repository:
-git clone <your-repo-url>
+git clone https://github.com/Mayank-kaneriya/job-portal
 cd job-portal
 
 2. Install Dependencies:
@@ -43,9 +43,9 @@ cd job-portal
 Create a .env file in the backend directory based on .env.example.
 
 Add the following variables:
-MONGO_URI=<your-mongodb-connection-string>
-JWT_SECRET=<your-jwt-secret-key>
-PORT=5000
+MONGO_URI=(your-mongodb-connection-string)
+JWT_SECRET=(your-jwt-secret-key)
+PORT=8000
 
 4. Run the Application:
     Start the backend server:
@@ -58,7 +58,7 @@ PORT=5000
     cd frontend
     npm run start
 
-The backend runs on http://localhost:5000, and the frontend runs on http://localhost:3000.
+The backend runs on http://localhost:3000, and the frontend runs on http://localhost:8000.
 
 6. Access the Application:
    Open your browser and navigate to http://localhost:3000 to use the job portal.
